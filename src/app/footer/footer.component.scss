@@ -1,0 +1,70 @@
+.footer{
+    background: transparent linear-gradient(100deg, #00A5CF 0%, #0B0077 100%) 0% 0% no-repeat padding-box;
+    .footer-content{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 4rem;
+       .footer-links{
+           h5{
+               font-size: 14px;
+               color: #FF9700;
+                 font-family: 'Montserrat', sans-serif; //Montserrat
+
+           }
+           a{
+               display: block;
+               color: #FFFFFF;
+                 font-family: 'Open Sans', sans-serif;
+                 font-size: 12px;
+                 text-decoration: none;
+                 padding-top: .3rem;
+
+           }
+       } 
+       .footer-icons{
+           h5{
+            font-size: 14px;
+            color: #FF9700;
+             font-family: 'Montserrat', sans-serif; //Montserrat
+           }
+           span{
+            color: #FFFFFF !important;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 12px;
+            padding-left: 10px;
+        }
+       }
+    }
+    .footer-bar{
+        background: #000000 0% 0% no-repeat padding-box;
+        opacity: .4;
+        p{
+            font-size: 14px;
+            color: #ffa622;
+            opacity: 1;
+            z-index: 1000;
+            font-size: 10px;
+             font-family: 'Montserrat', sans-serif; //Montserrat
+             padding: 5px 0px;
+             margin-bottom: 0px !important;
+        }
+    }
+}
+
+// ........Mobile Responsive.......... 
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .footer-content{
+        text-align: center;
+        padding-left: 0rem !important;
+        padding-bottom: 1rem !important;
+        h5{
+            padding-top: 1rem;
+        }
+    }
+}
+//..........Tab................
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+}
+// ...............loptop................. 
+@media screen and (min-width: 769px) and (max-width: 1024px){}

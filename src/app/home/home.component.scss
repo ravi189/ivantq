@@ -1,0 +1,498 @@
+@font-face {
+  font-family: "KonsensBold";
+  src: url("../../assets/fonts/konsensbold-maisfontes.d153/konsensbold.ttf");
+}
+.home-content {
+  padding: 0px;
+  .row {
+    --bs-gutter-x: 0rem;
+    .left-content {
+      --bs-gutter-x: 0;
+      --bs-gutter-y: 0;
+      .Outsourcing-bg {
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-left: 83px;
+        padding-top: 30px;
+        background: url("../../assets/images/Landing_pageOutsourcing.png") no-repeat;
+        background-size: cover;
+        position: relative;
+        box-shadow: 0 10px 10px 1px rgba(0, 0, 0, 0.5);
+        z-index: 10;
+        &:hover{
+          opacity: .4;
+          background-color: #00000a;
+          transition: .5s ;
+        }
+
+        .bg {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background: rgba(5, 5, 43, 0.774);
+          top: 0;
+          left: 0;
+          margin: auto;
+     
+        }
+        .col {
+          z-index: 2;
+        }
+        h5 {
+          font-family: "Montserrat", sans-serif; //Montserrat
+          color: #ff9700;
+          font-size: 16px;
+          position: relative;
+        }
+        p {
+          font-family: "Open Sans", sans-serif;
+          color: #ffffff;
+          font-size: 12px;
+        }
+        h5:after {
+          position: absolute;
+          content: "";
+          height: 2px;
+          background-color: #ff9700;
+          border: 0.5px solid #ff9700;
+          width: 50%;
+          margin-left: 15px;
+          top: 50%;
+        }
+        h5:before {
+          position: absolute;
+          content: "";
+          height: 2px;
+          background-color: #ffffff;
+          border: 0.5px solid hsl(0, 0%, 95%);
+          width: 6%;
+          margin-left: 15px;
+          top: 50%;
+          transform: rotate(90deg);
+          left: -30px;
+        }
+        button {
+          background: #ffffff00 0% 0% no-repeat padding-box;
+          border: 1px solid #ff9700;
+          border-radius: 17px;
+          color: #ff9700;
+          font-family: "Open Sans", sans-serif;
+          margin-left: 10rem;
+          margin-bottom: 1rem;
+          font-size: 12px;
+        }
+      }
+      .solutions-bg,
+      .tech-bg {
+
+        &:hover{
+          opacity: 0px;
+          transition: .4s ease-in ;
+          background: rgba(5, 5, 43, 0.973);
+        box-shadow: 0 10px 10px 1px rgba(0, 0, 0, 0.5);
+
+
+        }
+        .bg {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background: rgba(255, 255, 255, 0.774);
+          top: 0;
+          left: 0;
+          margin: auto;
+
+        }
+        .col {
+          z-index: 2;
+        }
+        h5:before {
+          position: absolute;
+          content: "";
+          height: 2px;
+          background-color: #ff9700;
+          border: 0.5px solid #ff9700;
+          width: 6%;
+          margin-left: 15px;
+          top: 50%;
+          transform: rotate(90deg);
+          left: -30px;
+        }
+      }
+      .solutions-bg {
+        background: url("../../assets/images/Landing_pageSolutions.png") no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-left: 83px;
+        padding-top: 30px;
+        position: relative;
+
+        h5 {
+          position: relative;
+          font-family: "Montserrat", sans-serif; //Montserrat
+          color: #003fac;
+          font-size: 16px;
+          .side-show-line{
+            width: 50px;
+            height: 3px;
+            background-color: black;
+          }
+        }
+        p {
+          font-family: "Open Sans", sans-serif;
+          color: black;
+          font-size: 12px;
+        }
+        h5:after {
+          position: absolute;
+          content: "";
+          height: 2px;
+          background-color: #003fac;
+          border: 0.5px solid #003fac;
+          width: 60%;
+          margin-left: 15px;
+          top: 50%;
+     
+        }
+        button {
+          background: #ffffff00 0% 0% no-repeat padding-box;
+          border: 1px solid #003fac;
+          border-radius: 17px;
+          color: #003fac;
+
+          font-family: "Open Sans", sans-serif;
+          margin-left: 10rem;
+          margin-bottom: 1rem;
+          font-size: 12px;
+        }
+      }
+      .tech-bg {
+        background: url("../../assets/images/Landing_pageTechologies.png") no-repeat;
+        background-size: cover;
+        padding-left: 83px;
+        padding-top: 30px;
+        position: relative;
+        h5 {
+          position: relative;
+          font-family: "Montserrat", sans-serif; //Montserrat
+          color: #0b0077;
+          font-size: 16px;
+        }
+        p {
+          font-family: "Open Sans", sans-serif;
+          color: #333333;
+          font-size: 12px;
+        }
+        h5:after {
+          position: absolute;
+          content: "";
+          height: 2px;
+          background-color: #003fac;
+          border: 0.5px solid #003fac;
+          width: 50%;
+          margin-left: 15px;
+          top: 50%;
+        }
+        button {
+          background: #ffffff00 0% 0% no-repeat padding-box;
+          border: 1px solid #003fac;
+          border-radius: 17px;
+          color: #003fac;
+          font-family: "Open Sans", sans-serif;
+          margin-left: 10rem;
+          margin-bottom: 1rem;
+          font-size: 12px;
+        }
+      }
+    }
+    .home-banner {
+      background-image: url("../../assets/images/Landing_pageCover_image.png");
+      //  opacity: .8;
+      background-size: 100% 100%;
+      --bs-gutter-x: 0;
+      --bs-gutter-y: 0;
+      .menubar {
+        margin-top: 1.2rem;
+        margin-left: 3rem;
+        margin-right: 6.6rem;
+        .navbar {
+          .logo {
+            img {
+              width: 110px;
+            }
+          }
+          .navbar-nav {
+            .active {
+              a {
+                color: #ff9700 !important;
+              }
+            }
+          }
+          .nav-item {
+            .nav-link {
+              color: #ffffff;
+              &:hover {
+                color: #ff9700 !important;
+              }
+            }
+          }
+        }
+      }
+      .home-text {
+        padding-top: 14rem;
+        .home-title {
+          h1 {
+            color: white;
+            font-size: 28px;
+            font-family: "KonsensBold";
+            font-weight: 400;
+            span {
+              color: #ff9700;
+            }
+          }
+          p {
+            color: #ffffff;
+            font-size: 12px;
+            font-family: "Open Sans", sans-serif;
+          }
+        }
+      }
+    }
+  }
+}
+.about-content {
+  padding-top: 3rem;
+  background: url("../../assets/images/Landing_pageWho_we_are_image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  h1 {
+    color: #003fac;
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif; //Montserrat
+    font-weight: 400;
+    position: relative;
+  }
+  h1:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 1.5px;
+    background: #ff9700;
+    left: 180px;
+    top: 50%;
+    position: absolute;
+  }
+  h1:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 1.5px;
+    background: #ff9700;
+    right: 180px;
+    top: 50%;
+    position: absolute;
+  }
+  p {
+    color: #333333;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+  }
+  button {
+    background: #ffffff00 0% 0% no-repeat padding-box;
+    border: 1px solid #003fac;
+    border-radius: 17px;
+    color: #003fac;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 1rem;
+  }
+}
+
+// ........Mobile Responsive.......... 
+@media screen and (min-width: 320px) and (max-width: 480px){
+  .about-content {
+    p{
+      font-size: 12px;
+    }
+    .about-title{
+      font-size: 20px;
+    }
+    h1:before {
+      width: 40%;
+    }
+    h1:after {
+      width: 40% !important;
+    }
+  }
+  .Outsourcing-bg{
+    padding: 15px !important;
+    button {
+      margin-left: 12rem !important;
+    }
+  }
+  .solutions-bg, .tech-bg{
+    padding: 15px !important;
+
+    button {
+      margin-left: 12rem !important;
+    }
+  }
+  .tech-bg{
+    h5:after {
+      width: 45% !important;
+    }
+  }
+  .home-text {
+    padding-top: 4rem !important;
+    padding-bottom: 3rem;
+    // padding: 0px 20px;
+    .text-slider-width{
+      width: 100% !important;
+    .home-title {
+      h1 {
+        font-size: 12px !important;
+      }
+      p {
+        font-size: 6px !important;
+      }
+    }
+  }
+  }
+  .home-content{
+    padding-top: 3.5rem;
+    .menubar{
+      height: 200px;
+      margin-right: 0px !important;
+      margin-left: 0px !important;
+      padding: 10px;
+    }
+  }
+}
+//..........Tab................
+@media screen and (min-width: 481px) and (max-width: 768px){
+  .home-banner{
+    height: 25.99rem;
+  }
+  
+  .Outsourcing-bg , .solutions-bg , .tech-bg {
+    padding-left: 3px !important;
+    padding-top: 30px;
+    h5 {
+      font-size: 12px !important;
+      padding:0px 10px;
+    }
+    p {
+      font-family: "Open Sans", sans-serif;
+      color: #ffffff;
+      font-size: 8px !important;
+    }
+    h5:after {
+      width: 40% !important;
+      margin-left: 15px;
+      top: 50%;
+    }
+    button {
+      margin-left: 7rem !important;
+      margin-bottom: 0.5rem !important;
+      font-size: 8px !important;
+    }
+  }
+
+  .home-text {
+    padding-top: 10rem !important;
+    padding-bottom: 3rem;
+    // padding: 0px 20px;
+    .text-slider-width{
+      width: 70% !important;
+    .home-title {
+      h1 {
+        font-size: 16px !important;
+      }
+      p {
+        font-size: 6px !important;
+      }
+    }
+  }
+  }
+  .about-content {
+    p{
+      font-size: 12px !important;
+    }
+    h1{
+      font-size: 22px !important;
+      border: none;
+    }
+    h1:before {
+      width: 0% !important;
+      margin-right: 4rem !important;
+    }
+    h1:after {
+      width: 0% !important;
+    }
+    
+ 
+  }
+}
+// ...............loptop................. 
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .home-banner{
+    height: 23.7rem;
+  }
+  
+  .Outsourcing-bg , .solutions-bg , .tech-bg {
+    padding-left: 3px !important;
+    padding-top: 30px;
+    h5 {
+      font-size: 12px !important;
+      padding:0px 10px;
+    }
+    p {
+      font-family: "Open Sans", sans-serif;
+      color: #ffffff;
+      font-size: 8px !important;
+    }
+    h5:after {
+      width: 40% !important;
+      margin-left: 15px;
+      top: 50%;
+    }
+    button {
+      margin-left: 7rem !important;
+      margin-bottom: 0.5rem !important;
+      font-size: 8px !important;
+    }
+  }
+
+  .home-text {
+    padding-top: 10rem !important;
+    padding-bottom: 3rem;
+    // padding: 0px 20px;
+    .text-slider-width{
+      width: 50% !important;
+    .home-title {
+      h1 {
+        font-size: 16px !important;
+      }
+      p {
+        font-size: 6px !important;
+      }
+    }
+  }
+  }
+  .about-content {
+    p{
+      font-size: 12px !important;
+    }
+    h1{
+      font-size: 22px !important;
+      border: none;
+    }
+    h1:before {
+      width: 0% !important;
+      margin-right: 4rem !important;
+    }
+    h1:after {
+      width: 0% !important;
+    }
+  }
+}

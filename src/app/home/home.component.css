@@ -1,0 +1,243 @@
+@font-face {
+  font-family: "KonsensBold";
+  src: url("../../assets/fonts/konsensbold-maisfontes.d153/konsensbold.ttf");
+}
+.home-content {
+  padding: 0px;
+}
+.home-content .row {
+  --bs-gutter-x: 0rem;
+}
+.home-content .row .left-content {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+.home-content .row .left-content .Outsourcing-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 83px;
+  padding-top: 30px;
+  background: url("../../assets/images/Landing_pageOutsourcing.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  -webkit-box-shadow: 0 10px 10px 1px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 10px 10px 1px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+.home-content .row .left-content .Outsourcing-bg .bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(5, 5, 43, 0.774);
+  top: 0;
+  left: 0;
+  margin: auto;
+}
+.home-content .row .left-content .Outsourcing-bg .col {
+  z-index: 2;
+}
+.home-content .row .left-content .Outsourcing-bg h5 {
+  font-family: "Montserrat", sans-serif;
+  color: #FF9700;
+  font-size: 16px;
+  position: relative;
+}
+.home-content .row .left-content .Outsourcing-bg p {
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+  font-size: 12px;
+}
+.home-content .row .left-content .Outsourcing-bg h5:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  background-color: #FF9700;
+  border: 0.5px solid #FF9700;
+  width: 50%;
+  margin-left: 15px;
+  top: 50%;
+}
+.home-content .row .left-content .Outsourcing-bg button {
+  background: #FFFFFF00 0% 0% no-repeat padding-box;
+  border: 1px solid #FF9700;
+  border-radius: 17px;
+  color: #FF9700;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 10rem;
+  margin-bottom: 1rem;
+  font-size: 12px;
+}
+.home-content .row .left-content .solutions-bg .bg, .home-content .row .left-content .tech-bg .bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.774);
+  top: 0;
+  left: 0;
+  margin: auto;
+}
+.home-content .row .left-content .solutions-bg .col, .home-content .row .left-content .tech-bg .col {
+  z-index: 2;
+}
+.home-content .row .left-content .solutions-bg {
+  background: url("../../assets/images/Landing_pageSolutions.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 83px;
+  padding-top: 30px;
+  position: relative;
+}
+.home-content .row .left-content .solutions-bg h5 {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  color: #003FAC;
+  font-size: 16px;
+}
+.home-content .row .left-content .solutions-bg p {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 12px;
+}
+.home-content .row .left-content .solutions-bg h5:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  background-color: #FF9700;
+  border: 0.5px solid #FF9700;
+  width: 50%;
+  margin-left: 15px;
+  top: 50%;
+}
+.home-content .row .left-content .solutions-bg button {
+  background: #FFFFFF00 0% 0% no-repeat padding-box;
+  border: 1px solid #003FAC;
+  border-radius: 17px;
+  color: #003FAC;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 10rem;
+  margin-bottom: 1rem;
+  font-size: 12px;
+}
+.home-content .row .left-content .tech-bg {
+  background: url("../../assets/images/Landing_pageTechologies.png") no-repeat;
+  background-size: cover;
+  padding-left: 83px;
+  padding-top: 30px;
+  position: relative;
+}
+.home-content .row .left-content .tech-bg h5 {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  color: #0B0077;
+  font-size: 16px;
+}
+.home-content .row .left-content .tech-bg p {
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+  font-size: 12px;
+}
+.home-content .row .left-content .tech-bg h5:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  background-color: #FF9700;
+  border: 0.5px solid #FF9700;
+  width: 50%;
+  margin-left: 15px;
+  top: 50%;
+}
+.home-content .row .left-content .tech-bg button {
+  background: #FFFFFF00 0% 0% no-repeat padding-box;
+  border: 1px solid #003FAC;
+  border-radius: 17px;
+  color: #003FAC;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 10rem;
+  margin-bottom: 1rem;
+  font-size: 12px;
+}
+.home-content .row .home-banner {
+  background-image: url("../../assets/images/Landing_pageCover_image.png");
+  background-size: 100% 100%;
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+.home-content .row .home-banner .menubar {
+  margin-top: 1.2rem;
+  margin-left: 3rem;
+  margin-right: 6.6rem;
+}
+.home-content .row .home-banner .menubar .navbar .logo img {
+  width: 110px;
+}
+.home-content .row .home-banner .menubar .navbar .navbar-nav .active a {
+  color: #FF9700 !important;
+}
+.home-content .row .home-banner .menubar .navbar .nav-item .nav-link {
+  color: #FFFFFF;
+}
+.home-content .row .home-banner .menubar .navbar .nav-item .nav-link:hover {
+  color: #FF9700 !important;
+}
+.home-content .row .home-banner .home-text {
+  padding-top: 10rem;
+}
+.home-content .row .home-banner .home-text .home-title h1 {
+  color: white;
+  font-size: 28px;
+  font-family: "KonsensBold";
+  font-weight: 400;
+}
+.home-content .row .home-banner .home-text .home-title h1 span {
+  color: #FF9700;
+}
+.home-content .row .home-banner .home-text .home-title p {
+  color: #FFFFFF;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.about-content {
+  padding-top: 3rem;
+  background: url("../../assets/images/Landing_pageWho_we_are_image.png");
+}
+.about-content h1 {
+  color: #003FAC;
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  position: relative;
+}
+.about-content h1:before {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 1.5px;
+  background: #FF9700;
+  left: 180px;
+  top: 50%;
+  position: absolute;
+}
+.about-content h1:after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 1.5px;
+  background: #FF9700;
+  right: 180px;
+  top: 50%;
+  position: absolute;
+}
+.about-content p {
+  color: #333333;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+.about-content button {
+  background: #FFFFFF00 0% 0% no-repeat padding-box;
+  border: 1px solid #003FAC;
+  border-radius: 17px;
+  color: #003FAC;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=home.component.css.map */

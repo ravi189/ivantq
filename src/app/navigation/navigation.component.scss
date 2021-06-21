@@ -1,0 +1,73 @@
+.my-nav-main{
+    position: absolute;
+    margin-top: 1.2rem;
+    margin-left: 3rem;
+    margin-right: 6.6rem;
+    .navbar {
+        width: 74%;
+        margin-left: 31%;
+      .logo {
+        img {
+          width: 110px;
+        }
+      }
+      .navbar-nav {
+        .active {
+          a {
+            color: #ff9700 !important;
+          }
+        }
+      }
+      .nav-item {
+        .nav-link {
+          color: #ffffff;
+          &:hover {
+            color: #ff9700 !important;
+          }
+        }
+      }
+    }
+  }
+
+
+  // ........Mobile Responsive.......... 
+@media screen and (min-width: 320px) and (max-width: 480px){
+  .my-nav-main{
+    margin: 0px !important;
+    background: transparent linear-gradient(118deg, #00A5CF 0%, #0B0077 100%) 0% 0% no-repeat padding-box;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+    .navbar{
+      margin-left: 0% !important;
+      top: 90%;
+      width: 100%;
+    }
+  }  
+}
+//..........Tab................
+@media screen and (min-width: 481px) and (max-width: 768px){
+  .my-nav-main{
+    margin: 0px !important;
+    // width: 100%;
+    padding-top: 1rem;
+    .navbar{
+      margin-left: 30% !important;
+      top: 90%;
+      width: 70%;
+    }
+  }  
+}
+// ...............loptop................. 
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .my-nav-main{
+    margin: 0px !important;
+    // width: 100%;
+    padding-top: 1rem;
+    .navbar{
+      margin-left: 30% !important;
+      top: 90%;
+      width: 70%;
+    }
+  }  
+}
